@@ -1,2 +1,9 @@
+x,y is the plot data;
 
-find(isnan(dy) ==1)
+dy=diff(y);
+
+S=0.1*trapz((1+dy.^2).^0.5)
+the answer is NaN;
+
+find(isnan(dy) ==1) % find the NaN
+B=A(~isnan(A))
