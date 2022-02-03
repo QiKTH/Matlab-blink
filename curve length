@@ -1,0 +1,2 @@
+
+find(isnan(dy) ==1)
